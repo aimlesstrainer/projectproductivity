@@ -1,0 +1,83 @@
+Version 0.10 (30/06/2018):
+- Added some forms, designed frmMain.
+Version 0.11 (03/07/2018):
+- Added rest of forms, designed frmOptions.
+Version 0.12 (04/07/2018):
+- Started work on main form's current date function, designed frmMonitoring.
+Version 0.13 (15/07/2018):
+- Partially completed main form's date function; created the following:
+	Config file for frmOptions
+	Statistics file for frmTimeUsage (read: frmStatistics)
+	List file for frmLists.
+	'Readme' file for the curious coders out there and to keep track of what lines hold what values in config.txt.
+Version 0.14 (16/07/2018):
+- Ironed out some minor bugs; partially completed main form's date function.
+Version 0.20 (17/07/2018):
+- Fully completed main form's date function.
+Version 0.21 (18/08/2018):
+- Fixed bugs with date function, tweaked it slightly.
+- Completed layout of frmReminder, prepared some variables for frmReminder.
+Version 0.22 (19/07/2018):
+- Added reminder functionality, improved some StreamWriter code.
+- Added files for reminders and to-dos.
+Version 0.22a (20/07/2018):
+- Added half-working QuickSort algorithm to sort reminders in frmReminder by date.
+Version 0.30 (21/07/2018):
+- Fixed (and thus, completed) QuickSort sorting algorithm in frmReminder.
+- Added code to update Today's Reminders when the original reminder list has been changed.
+- Fixed some minor bugs.
+Version 0.40 (22/07/2018):
+- Added to-do functionality.
+- Fixed some more bugs.
+- Removed the controls for the amount of seconds for a timer in frmMonitoring.
+- Improved some code.
+Version 0.41 (23/07/2018):
+- Designed frmSchedule.
+Version 0.42 (24/07/2018):
+- Made a partially working schedule function in frmSchedule.
+Version 0.43 (25/07/2018):
+- Redesign of the code of the schedule function in frmSchedule; everything works as intended (more features, too!), but differently.
+Version 0.50 (28/07/2018):
+- Completed schedule function, including its intended functions in frmMain.
+- Fixed frmToDo crashing when all the to-dos are removed.
+Version 0.51 (29/07/2018):
+- Started on frmCalendar.
+Version 0.52 (30/07/2018):
+- Completed the design of frmCalendar.
+- Added an almost-working main screen monitoring status update.
+- Fixed frmReminder crashing when all the reminders are removed. (strange it wasn't fixed earlier)
+Version 0.52a (31/07/2018):
+- WIP frmSchedule run-time schedule addition error fix.
+- WIP Image Property setting in frmCalendar.
+Version 0.53 (01/08/2018):
+- Completed Image Property setting in frmCalendar.
+- Added timed monitoring functionality.
+- Fixed some bugs; improved some code.
+Version 0.54 (02/08/2018):
+- Designed frmLists, added some code to it.
+Version 0.55 (03/08/2018):
+- Streamlined some code in frmToDo.
+- Added some more code to frmLists.
+Version 0.56 (04/08/2018):
+- Streamlined some code in frmCalendar.
+- Added code to detect whether a reminder is on a given day in frmCalendar.
+Version 0.60 (05/08/2018):
+- Streamlined some more code in frmCalendar.
+- Completed frmCalendar in its entirety (with features missing due to time constraints).
+- Redesigned frmStatistics, added code to it.
+Version 0.70 (07/08/2018):
+- Completed frmStatistics and its relevant code in it and other places.
+- Fixed a bug regarding manual monitoring without timer.
+- Slight redesign of updating of main todo and reminder listboxes.
+Version 0.80 (08/08/2018):
+- Major redesign of frmLists (no longer is there a whitelist for applications; and manual application insertion is required, among other things), and, by extension, lists.txt.
+- Cleaned up some unused resources.
+- Completed monitoring function (only for applications, websites was shelved due to time constraints).
+- Bug fix with manual untimed monitoring during a scheduled day.
+Version 0.81 (08/08/2018):
+- Fixed a couple bugs with new users.
+Version 0.90 (08/08/2018):
+- Added help documentation.
+- Added current session length in frmStatistics, as well as total time spent.
+Version 1.00 (10/08/2018):
+- Added login functionality.

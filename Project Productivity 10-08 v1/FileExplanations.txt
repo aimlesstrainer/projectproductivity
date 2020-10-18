@@ -1,0 +1,46 @@
+If you're here, you're either the creator or you're a curious George trying to find out what these text files do.
+These files are best opened in Notepad++ so you don't get lost figuring out which lines are which.
+Don't know where these files are? From the folder this file is in, go to Project Productivity -> Bin -> Debug, and you've found them!
+
+config.txt:
+Self-explanatory. Holds the values set by frmOptions.
+Line 1 is bool24Hours.
+Line 2 is boolShortDate.
+Line 3 is boolMDY.
+Line 4 is byteDateSeparator, where 0 corresponds to slashes, 1 to dashes, 2 to dots.
+Line 5 is boolShortYear.
+Line 6 is boolYearFirst.
+
+stats.txt:
+A cumulative collection of statistics of the user's behaviour over time.
+Line 1 is amount of productive time (sec).
+Line 2 is amount of unproductive time (sec).
+Line 3 is number of attempts to be unproductive.
+Line 4 is time spent while monitored (sec).
+Line 5 is the number of break periods used.
+Line 6 is time spent on break (sec).
+Line 7 is amount of reminders made.
+Line 8 is amount of to-dos made.
+Line 9 is whether the program is being initially used.
+Line 10 is the date of initial use.
+Line 11 is total time spent using the program.
+
+lists.txt:
+If you haven't already looked through it, **DO NOT EDIT IT.**
+If you do, the program will not function correctly in some cases.
+Do you 100% know what you're doing?
+Then:
+Text block 1 is the blacklist.
+Text block 2 is the whitelist.
+Text block 3 is the websites.
+
+reminders.txt:
+Another one of those things you shouldn't edit on the fly, especially if you're still in the same session as the one you added reminders in. Don't add custom strings less than twelve characters long, you'll regret it.
+It's a self-explanatory file. Holds all the data that the user has placed into frmReminders. Also used for today's reminders in frmMain.
+
+todos.txt:
+See 'reminders.txt' for the disclaimer.
+Another self-explanatory file. Holds all the to-dos that the user has placed into frmToDo.
+
+schedules.txt:
+Ditto, except this time it's schedules into frmSchedule.

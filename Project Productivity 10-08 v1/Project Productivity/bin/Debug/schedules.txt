@@ -1,0 +1,24 @@
+(Work) Monday, 07:00-09:30
+(Break) Sunday, 06:00-07:01
+(Break) Friday, 09:00-15:15
+(Break) Saturday, 17:00-20:00
+(Break) Wednesday, 01:00-13:00
+thisblockoftexthasended
+Monday
+Sunday
+Friday
+Saturday
+Wednesday
+thisblockoftexthasended
+07:00
+06:00
+09:00
+17:00
+01:00
+thisblockoftexthasended
+09:30
+07:01
+15:15
+20:00
+13:00
+thisblockoftexthasended

@@ -1,0 +1,5 @@
+(low priority) Make schedule check for conflicting times.
+Adapt frmReminder dates & frmSchedule times to user settings.
+Fix the list box wrapping problem.
+Internally document EVERYTHING.
+thisistheendofthefile
